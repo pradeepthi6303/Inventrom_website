@@ -1,0 +1,114 @@
+#headnav
+{
+    height: 50px;
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -7px;
+    
+}
+a
+{
+  text-decoration: none;
+}
+#about,#contact,#awards
+{
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0a0a0a;
+}
+#bImg
+{
+    height: 600px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 200px;
+    color: white;
+    background-image : url('images/background-layer.png');
+}
+#text_section
+{
+    font-size: 40px;
+}
+#click_text
+{
+    text-decoration: none;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+  }
+ p{
+    color: grey;font-size: 12px;
+ } 
+ h2{
+   color:#139139;
+ }
+ .award
+ {
+    width: 300px;
+ }
+ .awardheadings
+ {
+    color: #000000;
+    font-size: 15px;
+ }
+ .line
+ {
+    color: grey;
+ }
+ .award_info
+ {
+    height: 350px;
+ }
+ .locations
+ {
+   color: grey;
+   text-align: left;
+   margin-left: 50px;
+   font-size: 13px;
+   margin-bottom: 15px;
+ }
+ .Mumbai,.goa,.loc_desc1,.loc_desc2
+ {
+   margin-top: 40px;
+   line-height: 25px;
+ }
+ #place_holder,#phone,#email_id,.facebook,.twitter,.insta,.go-up
+ {
+   width: 22px;
+   height: 22px;
+ }
+ .placeHolder,.phone_call,.email
+ {
+   line-height: 25px;
+   margin-top: 30px;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+ }
+ .footer
+ {
+   background-color:#139139;
+   height: 100px;
+   color: white;
+   display: flex;
+   align-items: center;
+ }
+ .copy_right
+ {
+   margin-left: 200px;
+ }
+ .icons{
+         margin-left: 250px;
+ }
+ .facebook,.twitter,.insta
+ {
+      padding-left: 25px;
+ }
+ .arrow
+ {
+   padding-left: 300px;
+ }
